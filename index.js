@@ -20,6 +20,7 @@ function destructivelyRemoveFirstKitten() {
   kittens.shift();
 }
 
+<<<<<<< HEAD
 function appendKitten(name) {
   return [...kittens, name]
 }
@@ -34,4 +35,10 @@ function removeFirstKitten() {
 
 function removeLastKitten() {
   return kittens.slice(0, kittens.length - 1)
+=======
+function appendKitten() {
+  kittens = ['Milo', 'Otis', 'Garfield'];
+  kittens.splice(3, 0, "Broom");
+  return kittens
+>>>>>>> f27b8169653ed755841da682d1a748bb5de640ad
 }
